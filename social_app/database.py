@@ -15,6 +15,7 @@ class Database:
     # is the data inserted
     @staticmethod
     def insert(collection,data):
+
         return Database.DATABASE[collection].insert(data)
 # find all from data base
     @staticmethod

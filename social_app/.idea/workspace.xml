@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3c4645a-d13b-44b0-b984-bc27b604c34d" name="Default Changelist" comment="" />
+    <list default="true" id="e3c4645a-d13b-44b0-b984-bc27b604c34d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +18,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1VB9dbPH7iSug6X2rBE5RZ3evHa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,8 +30,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -52,7 +61,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="database" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="group" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="social_app" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,11 +69,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/database.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/group.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="menu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="social_app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/menu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,11 +124,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="user" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="social_app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/user.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.app" />
+        <item itemvalue="Python.menu" />
+        <item itemvalue="Python.user" />
+        <item itemvalue="Python.group" />
         <item itemvalue="Python.post" />
-        <item itemvalue="Python.database" />
       </list>
     </recent_temporary>
   </component>
@@ -125,32 +178,78 @@
       <option name="presentableId" value="Default" />
       <updated>1576715711391</updated>
     </task>
+    <task id="LOCAL-00001" summary="amine">
+      <created>1578430237632</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578430237632</updated>
+    </task>
+    <task id="LOCAL-00002" summary="amine">
+      <created>1578436010922</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578436010922</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="amine" />
+    <option name="LAST_COMMIT_MESSAGE" value="amine" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1278" height="193" key="GridCell.Tab.0.bottom" timestamp="1576803332917">
+    <state x="327" y="24" key="CommitChangelistDialog2" timestamp="1578436010194">
       <screen x="65" y="24" width="1301" height="744" />
     </state>
-    <state width="1278" height="193" key="GridCell.Tab.0.bottom/65.24.1301.744@65.24.1301.744" timestamp="1576803332917" />
-    <state width="1278" height="193" key="GridCell.Tab.0.center" timestamp="1576803332915">
+    <state x="327" y="24" key="CommitChangelistDialog2/65.24.1301.744@65.24.1301.744" timestamp="1578436010194" />
+    <state x="196" y="84" key="DiffContextDialog" timestamp="1578436003198">
       <screen x="65" y="24" width="1301" height="744" />
     </state>
-    <state width="1278" height="193" key="GridCell.Tab.0.center/65.24.1301.744@65.24.1301.744" timestamp="1576803332915" />
-    <state width="1278" height="193" key="GridCell.Tab.0.left" timestamp="1576803332914">
+    <state x="196" y="84" key="DiffContextDialog/65.24.1301.744@65.24.1301.744" timestamp="1578436003198" />
+    <state x="465" y="127" key="FileChooserDialogImpl" timestamp="1578404623775">
       <screen x="65" y="24" width="1301" height="744" />
     </state>
-    <state width="1278" height="193" key="GridCell.Tab.0.left/65.24.1301.744@65.24.1301.744" timestamp="1576803332914" />
-    <state width="1278" height="193" key="GridCell.Tab.0.right" timestamp="1576803332916">
+    <state x="465" y="127" key="FileChooserDialogImpl/65.24.1301.744@65.24.1301.744" timestamp="1578404623775" />
+    <state width="1278" height="523" key="GridCell.Tab.0.bottom" timestamp="1578445093891">
       <screen x="65" y="24" width="1301" height="744" />
     </state>
-    <state width="1278" height="193" key="GridCell.Tab.0.right/65.24.1301.744@65.24.1301.744" timestamp="1576803332916" />
-    <state x="209" y="24" key="SettingsEditor" timestamp="1576716935094">
+    <state width="1278" height="523" key="GridCell.Tab.0.bottom/65.24.1301.744@65.24.1301.744" timestamp="1578445093891" />
+    <state width="1278" height="523" key="GridCell.Tab.0.center" timestamp="1578445093889">
       <screen x="65" y="24" width="1301" height="744" />
     </state>
-    <state x="209" y="24" key="SettingsEditor/65.24.1301.744@65.24.1301.744" timestamp="1576716935094" />
-    <state x="378" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1576797405409">
+    <state width="1278" height="523" key="GridCell.Tab.0.center/65.24.1301.744@65.24.1301.744" timestamp="1578445093889" />
+    <state width="1278" height="523" key="GridCell.Tab.0.left" timestamp="1578445093886">
       <screen x="65" y="24" width="1301" height="744" />
     </state>
-    <state x="378" y="225" key="com.intellij.ide.util.TipDialog/65.24.1301.744@65.24.1301.744" timestamp="1576797405409" />
+    <state width="1278" height="523" key="GridCell.Tab.0.left/65.24.1301.744@65.24.1301.744" timestamp="1578445093886" />
+    <state width="1278" height="523" key="GridCell.Tab.0.right" timestamp="1578445093890">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="1278" height="523" key="GridCell.Tab.0.right/65.24.1301.744@65.24.1301.744" timestamp="1578445093890" />
+    <state x="209" y="24" key="SettingsEditor" timestamp="1578405034828">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="209" y="24" key="SettingsEditor/65.24.1301.744@65.24.1301.744" timestamp="1578405034828" />
+    <state x="378" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1578404455883">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="378" y="225" key="com.intellij.ide.util.TipDialog/65.24.1301.744@65.24.1301.744" timestamp="1578404455883" />
+    <state x="488" y="303" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578430298645">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="488" y="303" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/65.24.1301.744@65.24.1301.744" timestamp="1578430298645" />
   </component>
 </project>
