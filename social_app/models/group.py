@@ -10,6 +10,9 @@ class Group:
 
     def join_group(self,group_name,user_name,user_id):
         Database.insert(collection=group_name, data=self.json())
+    @staticmethod
+    def list_members(group_name):
+        return [post for post in Database.find(collection=group_name, query={})]
 
 
 

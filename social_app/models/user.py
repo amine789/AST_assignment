@@ -5,11 +5,13 @@ from models.post import *
 
 from models.group import *
 class User:
-    def __init__(self,name,id):
+    def __init__(self,name,id,date,status):
         self.name=name
         self.id=id
+        self.date=date
+        self.status=status
         if User.find_user(self.id) is None:
-             Database.insert(collection='users', data={'name': name, '_id': id})
+             Database.insert(collection='users', data={'name': name, '_id': id,'date_of_birth':date,'relationship status':status})
 
     @staticmethod
     def show_users():
@@ -38,6 +40,8 @@ class User:
         return {
             'name': self.name,
             'id': self.id
+
+
         }
     def create_group(self,group_name,user_name,user_id):
         #Database.insert(collection=name, data={'name': self.name, 'id': self.id})
